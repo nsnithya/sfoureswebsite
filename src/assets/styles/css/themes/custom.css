@@ -1,0 +1,137 @@
+.main-header .logo img {
+  width: 100%;
+  height: auto;
+}
+
+.service-wrap {
+  display: flex;
+}
+
+.service-wrap .card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card-body {
+  flex-grow: 1;
+  /* pushes footer down */
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  /* adjust */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-text.expanded {
+  -webkit-line-clamp: unset;
+}
+
+.customizer {
+  max-width: fit-content;
+  height: auto;
+  right: -474px;
+  left: auto;
+  top: 100px;
+}
+
+.customizer .colors_wrap {
+  height: auto;
+}
+
+.customizer p {
+  margin-bottom: 0;
+  font-size: large;
+}
+
+.customizer p strong {
+  min-height: 25px;
+}
+
+.customizer.show {
+  right: 0;
+  left: auto
+}
+
+.customizer .handle {
+  left: -15px;
+  right: auto;
+}
+
+.team-wrap .col-md-6,
+.team-wrap .col-lg-4 {
+  display: flex;
+}
+
+.card-profile-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card-profile-1 .card-body {
+  flex-grow: 1;
+}
+
+.client-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  /* adjust lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.client-text.expanded {
+  -webkit-line-clamp: unset;
+}
+
+.dissolve-img {
+  width: 100%;
+  border-radius: 25%;
+  max-height: 465px;
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 55%, rgba(0, 0, 0, 0) 95%);
+}
+
+.landing-gradient-blue-red .overlay {
+  background: url(https://img-cdn.inc.com/image/upload/f_webp,c_fit,w_1920,q_auto/images/panoramic/getty_180152187_970679970450042_64007.jpg);
+}
+
+.certify {
+  background: linear-gradient(-29deg, #233b88, #7f215f) !important;
+  margin-bottom: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+.main-header.header-fixed-default{
+  padding: 0;
+}
+.navbar{
+background: linear-gradient(-29deg, #762463, #233b88) !important;
+}
+.landing-gradient-blue-red .eva, .landing-gradient-blue-red .mega-menu .dropdown-menu .bg-img {
+    background-image: linear-gradient(-29deg, #c10f41, #233b88) !important;
+}
+
+
+@media (max-width: 995px) {
+    .navbar-collapse {
+        top: 5.5rem;
+    }
+  }
+
+@media (max-width: 579px) {
+    .navbar-collapse {
+        top: 4.5rem;
+    }
+  }
+
+@media (max-width: 425px) {
+    .navbar-collapse {
+        top: 4.5rem;
+    }
+  }
