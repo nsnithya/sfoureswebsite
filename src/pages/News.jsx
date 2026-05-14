@@ -23,8 +23,8 @@ function News() {
 
                             <div className="card_right_content w-60 p-3 float-right">
                                 <div className="pt-3 pb-4">
-                                    <h3 className="m-0 text-capitalize font-weight-bold">Beauty of Sunshine</h3>
-                                    <h5 className="font-weight-light text-uppercase">by Sangeetha Chockanarayanan</h5>
+                                    <h3 className="m-0 text-capitalize font-weight-bold">Ms. Sangeetha Chockanarayanan</h3>
+                                    <h5 className="font-weight-light text-uppercase">Co-Founder & CEO</h5>
                                 </div>
 
                                 <div className="font-weight-light pb-3">
@@ -48,9 +48,9 @@ function News() {
 
                             <div className="card_right_content w-60 p-3 float-right">
                                 <div className="pt-3 pb-4">
-                                    <h3 className="m-0 text-capitalize font-weight-bold">Never look backward
+                                    <h3 className="m-0 text-capitalize font-weight-bold">Mr. Swami Nithiyanandham
                                     </h3>
-                                    <h5 className="font-weight-light text-uppercase">by Swami Nithiyanandham</h5>
+                                    <h5 className="font-weight-light text-uppercase">Co-Founder & CTO</h5>
                                 </div>
 
                                 <div className="font-weight-light pb-3">
